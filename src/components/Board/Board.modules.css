@@ -1,0 +1,40 @@
+.board {
+    background-color: #fff;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.12);
+    border-radius: 16px;
+    width: 100%;
+    padding: 30px 20px;
+}
+
+.board__players--empty {
+    font-size: 24px;
+    line-height: 29px;
+    color: #00000066;
+    text-align: center;
+    display: block;
+    font-weight: 700;
+}
+
+.board__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 0 28px 65px;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.board__header_label,
+.board__header_score {
+    font-weight: 300;
+    color: #00000066;
+}
+
+.board__header_score {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.board__header_score_arrow {
+    margin-right: 5px;
+}

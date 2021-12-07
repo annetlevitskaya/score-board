@@ -1,0 +1,20 @@
+.App {
+    background-color: #F5F5F5;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    padding: 60px 0;
+    position: relative;
+}
+
+.App__container {
+    width: 72%;
+    margin: 0 auto;
+}
+  
+.App__title {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 63px;
+    padding-bottom: 45px;
+}
